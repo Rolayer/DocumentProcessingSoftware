@@ -1,0 +1,17 @@
+﻿<Window x:Class="DocumentProcessingSoftware.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DocumentProcessingSoftware"
+        mc:Ignorable="d"
+        Title="文档转图片小工具v0.1 copyright@pengbenlei" Height="300" Width="600" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="label" Content="请先选择一个文件：" FontSize="20" HorizontalAlignment="Left" Margin="55,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,-1" Width="195" Height="40"/>
+        <Button x:Name="button" Content="点击选择文件" FontSize="15" Click="Button_Click" HorizontalAlignment="Left" Margin="280,70,0,0" VerticalAlignment="Top" Width="130" Height="35"/>
+        <Label x:Name="label1" Content="未选择文件" HorizontalAlignment="Left" Margin="295,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="转换后的文件将存储到：C:\\Users\\Administrator\\Downloads" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Height="50" Width="572"/>
+        <Button x:Name="button1" Content="点击转换" Click="Button1_Click"  HorizontalAlignment="Left" Margin="270,194,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="0.4,-1.842" Height="44"/>
+
+    </Grid>
+</Window>
